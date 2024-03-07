@@ -1,12 +1,13 @@
-package codingdojo;
+package codingdojo.service;
 
+import codingdojo.util.ExternalCustomerPrinter;
+import codingdojo.FakeDatabase;
 import codingdojo.dto.ExternalCustomer;
 import codingdojo.enumeration.CustomerType;
 import codingdojo.exception.ConflictException;
 import codingdojo.model.Address;
 import codingdojo.model.Customer;
 import codingdojo.model.ShoppingList;
-import codingdojo.service.CustomerSync;
 import org.approvaltests.Approvals;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;

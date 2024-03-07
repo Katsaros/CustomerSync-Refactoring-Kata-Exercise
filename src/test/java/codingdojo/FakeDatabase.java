@@ -3,6 +3,8 @@ package codingdojo;
 import codingdojo.dao.CustomerDataLayer;
 import codingdojo.model.Customer;
 import codingdojo.model.ShoppingList;
+import codingdojo.util.CustomerPrinter;
+import codingdojo.util.ShoppingListPrinter;
 
 import java.util.*;
 

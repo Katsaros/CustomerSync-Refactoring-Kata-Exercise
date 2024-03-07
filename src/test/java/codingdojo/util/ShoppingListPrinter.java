@@ -1,4 +1,4 @@
-package codingdojo;
+package codingdojo.util;
 
 import codingdojo.model.ShoppingList;
 
